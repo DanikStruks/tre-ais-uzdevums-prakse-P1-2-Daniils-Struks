@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbola Komandu Viktorīna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="quiz">
+            <h1>Futbola Komandu Viktorīna</h1>
+            <div id="question-container">
+                <img id="team-image" src="" alt="Komandas attēls">
+                <p id="question"></p>
+                <div class="options">
+                    <button class="option" onclick="selectOption(0)">Option 1</button>
+                    <button class="option" onclick="selectOption(1)">Option 2</button>
+                    <button class="option" onclick="selectOption(2)">Option 3</button>
+                    <button class="option" onclick="selectOption(3)">Option 4</button>
+                </div>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">Nākamais jautājums</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
